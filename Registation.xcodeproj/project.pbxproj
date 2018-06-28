@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6402F0220E3A18A008BEBD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6402F0120E3A18A008BEBD2 /* AppDelegate.swift */; };
+		F6402F0420E3A18A008BEBD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6402F0320E3A18A008BEBD2 /* ViewController.swift */; };
+		F6402F0720E3A18A008BEBD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6402F0520E3A18A008BEBD2 /* Main.storyboard */; };
+		F6402F0A20E3A18A008BEBD2 /* Registation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F6402F0820E3A18A008BEBD2 /* Registation.xcdatamodeld */; };
+		F6402F0C20E3A192008BEBD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6402F0B20E3A192008BEBD2 /* Assets.xcassets */; };
+		F6402F0F20E3A192008BEBD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6402F0D20E3A192008BEBD2 /* LaunchScreen.storyboard */; };
+		F6402F1A20E3A192008BEBD2 /* RegistationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6402F1920E3A192008BEBD2 /* RegistationTests.swift */; };
+		F6402F2520E3A192008BEBD2 /* RegistationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6402F2420E3A192008BEBD2 /* RegistationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6402F1620E3A192008BEBD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6402EF620E3A18A008BEBD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6402EFD20E3A18A008BEBD2;
+			remoteInfo = Registation;
+		};
+		F6402F2120E3A192008BEBD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6402EF620E3A18A008BEBD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6402EFD20E3A18A008BEBD2;
+			remoteInfo = Registation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6402EFE20E3A18A008BEBD2 /* Registation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Registation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6402F0120E3A18A008BEBD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6402F0320E3A18A008BEBD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6402F0620E3A18A008BEBD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6402F0920E3A18A008BEBD2 /* Registation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Registation.xcdatamodel; sourceTree = "<group>"; };
+		F6402F0B20E3A192008BEBD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6402F0E20E3A192008BEBD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6402F1020E3A192008BEBD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6402F1520E3A192008BEBD2 /* RegistationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegistationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6402F1920E3A192008BEBD2 /* RegistationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistationTests.swift; sourceTree = "<group>"; };
+		F6402F1B20E3A192008BEBD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6402F2020E3A192008BEBD2 /* RegistationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegistationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6402F2420E3A192008BEBD2 /* RegistationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistationUITests.swift; sourceTree = "<group>"; };
+		F6402F2620E3A192008BEBD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6402EFB20E3A18A008BEBD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6402F1220E3A192008BEBD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6402F1D20E3A192008BEBD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6402EF520E3A18A008BEBD2 = {
+			isa = PBXGroup;
+			children = (
+				F6402F0020E3A18A008BEBD2 /* Registation */,
+				F6402F1820E3A192008BEBD2 /* RegistationTests */,
+				F6402F2320E3A192008BEBD2 /* RegistationUITests */,
+				F6402EFF20E3A18A008BEBD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6402EFF20E3A18A008BEBD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6402EFE20E3A18A008BEBD2 /* Registation.app */,
+				F6402F1520E3A192008BEBD2 /* RegistationTests.xctest */,
+				F6402F2020E3A192008BEBD2 /* RegistationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6402F0020E3A18A008BEBD2 /* Registation */ = {
+			isa = PBXGroup;
+			children = (
+				F6402F0120E3A18A008BEBD2 /* AppDelegate.swift */,
+				F6402F0320E3A18A008BEBD2 /* ViewController.swift */,
+				F6402F0520E3A18A008BEBD2 /* Main.storyboard */,
+				F6402F0B20E3A192008BEBD2 /* Assets.xcassets */,
+				F6402F0D20E3A192008BEBD2 /* LaunchScreen.storyboard */,
+				F6402F1020E3A192008BEBD2 /* Info.plist */,
+				F6402F0820E3A18A008BEBD2 /* Registation.xcdatamodeld */,
+			);
+			path = Registation;
+			sourceTree = "<group>";
+		};
+		F6402F1820E3A192008BEBD2 /* RegistationTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6402F1920E3A192008BEBD2 /* RegistationTests.swift */,
+				F6402F1B20E3A192008BEBD2 /* Info.plist */,
+			);
+			path = RegistationTests;
+			sourceTree = "<group>";
+		};
+		F6402F2320E3A192008BEBD2 /* RegistationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6402F2420E3A192008BEBD2 /* RegistationUITests.swift */,
+				F6402F2620E3A192008BEBD2 /* Info.plist */,
+			);
+			path = RegistationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6402EFD20E3A18A008BEBD2 /* Registation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6402F2920E3A192008BEBD2 /* Build configuration list for PBXNativeTarget "Registation" */;
+			buildPhases = (
+				F6402EFA20E3A18A008BEBD2 /* Sources */,
+				F6402EFB20E3A18A008BEBD2 /* Frameworks */,
+				F6402EFC20E3A18A008BEBD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Registation;
+			productName = Registation;
+			productReference = F6402EFE20E3A18A008BEBD2 /* Registation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6402F1420E3A192008BEBD2 /* RegistationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6402F2C20E3A192008BEBD2 /* Build configuration list for PBXNativeTarget "RegistationTests" */;
+			buildPhases = (
+				F6402F1120E3A192008BEBD2 /* Sources */,
+				F6402F1220E3A192008BEBD2 /* Frameworks */,
+				F6402F1320E3A192008BEBD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6402F1720E3A192008BEBD2 /* PBXTargetDependency */,
+			);
+			name = RegistationTests;
+			productName = RegistationTests;
+			productReference = F6402F1520E3A192008BEBD2 /* RegistationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6402F1F20E3A192008BEBD2 /* RegistationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6402F2F20E3A192008BEBD2 /* Build configuration list for PBXNativeTarget "RegistationUITests" */;
+			buildPhases = (
+				F6402F1C20E3A192008BEBD2 /* Sources */,
+				F6402F1D20E3A192008BEBD2 /* Frameworks */,
+				F6402F1E20E3A192008BEBD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6402F2220E3A192008BEBD2 /* PBXTargetDependency */,
+			);
+			name = RegistationUITests;
+			productName = RegistationUITests;
+			productReference = F6402F2020E3A192008BEBD2 /* RegistationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6402EF620E3A18A008BEBD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = ev_mac18;
+				TargetAttributes = {
+					F6402EFD20E3A18A008BEBD2 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					F6402F1420E3A192008BEBD2 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = F6402EFD20E3A18A008BEBD2;
+					};
+					F6402F1F20E3A192008BEBD2 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = F6402EFD20E3A18A008BEBD2;
+					};
+				};
+			};
+			buildConfigurationList = F6402EF920E3A18A008BEBD2 /* Build configuration list for PBXProject "Registation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6402EF520E3A18A008BEBD2;
+			productRefGroup = F6402EFF20E3A18A008BEBD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6402EFD20E3A18A008BEBD2 /* Registation */,
+				F6402F1420E3A192008BEBD2 /* RegistationTests */,
+				F6402F1F20E3A192008BEBD2 /* RegistationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6402EFC20E3A18A008BEBD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6402F0F20E3A192008BEBD2 /* LaunchScreen.storyboard in Resources */,
+				F6402F0C20E3A192008BEBD2 /* Assets.xcassets in Resources */,
+				F6402F0720E3A18A008BEBD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6402F1320E3A192008BEBD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6402F1E20E3A192008BEBD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6402EFA20E3A18A008BEBD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6402F0420E3A18A008BEBD2 /* ViewController.swift in Sources */,
+				F6402F0220E3A18A008BEBD2 /* AppDelegate.swift in Sources */,
+				F6402F0A20E3A18A008BEBD2 /* Registation.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6402F1120E3A192008BEBD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6402F1A20E3A192008BEBD2 /* RegistationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6402F1C20E3A192008BEBD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6402F2520E3A192008BEBD2 /* RegistationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6402F1720E3A192008BEBD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6402EFD20E3A18A008BEBD2 /* Registation */;
+			targetProxy = F6402F1620E3A192008BEBD2 /* PBXContainerItemProxy */;
+		};
+		F6402F2220E3A192008BEBD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6402EFD20E3A18A008BEBD2 /* Registation */;
+			targetProxy = F6402F2120E3A192008BEBD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6402F0520E3A18A008BEBD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6402F0620E3A18A008BEBD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6402F0D20E3A192008BEBD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6402F0E20E3A192008BEBD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6402F2720E3A192008BEBD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6402F2820E3A192008BEBD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6402F2A20E3A192008BEBD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Registation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.Registation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6402F2B20E3A192008BEBD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Registation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.Registation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F6402F2D20E3A192008BEBD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RegistationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.RegistationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Registation.app/Registation";
+			};
+			name = Debug;
+		};
+		F6402F2E20E3A192008BEBD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RegistationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.RegistationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Registation.app/Registation";
+			};
+			name = Release;
+		};
+		F6402F3020E3A192008BEBD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RegistationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.RegistationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Registation;
+			};
+			name = Debug;
+		};
+		F6402F3120E3A192008BEBD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RegistationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.RegistationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Registation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6402EF920E3A18A008BEBD2 /* Build configuration list for PBXProject "Registation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6402F2720E3A192008BEBD2 /* Debug */,
+				F6402F2820E3A192008BEBD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6402F2920E3A192008BEBD2 /* Build configuration list for PBXNativeTarget "Registation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6402F2A20E3A192008BEBD2 /* Debug */,
+				F6402F2B20E3A192008BEBD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6402F2C20E3A192008BEBD2 /* Build configuration list for PBXNativeTarget "RegistationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6402F2D20E3A192008BEBD2 /* Debug */,
+				F6402F2E20E3A192008BEBD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6402F2F20E3A192008BEBD2 /* Build configuration list for PBXNativeTarget "RegistationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6402F3020E3A192008BEBD2 /* Debug */,
+				F6402F3120E3A192008BEBD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F6402F0820E3A18A008BEBD2 /* Registation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F6402F0920E3A18A008BEBD2 /* Registation.xcdatamodel */,
+			);
+			currentVersion = F6402F0920E3A18A008BEBD2 /* Registation.xcdatamodel */;
+			path = Registation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F6402EF620E3A18A008BEBD2 /* Project object */;
+}
